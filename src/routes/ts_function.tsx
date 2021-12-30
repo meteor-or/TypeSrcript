@@ -80,6 +80,8 @@ function ts_function() {
             <p>count("안녕하세요") : {count("안녕하세요")}</p>
             <p>marriage(100, true, '상') : {marriage(100, true, '상')} </p>
             <pre>
+                <code>
+                    
                 {`
     function 함수(x :number) {
         return x * 2
@@ -149,6 +151,8 @@ function ts_function() {
             }
 
         }`}
+            
+                </code>
             </pre>
         </div>
     )

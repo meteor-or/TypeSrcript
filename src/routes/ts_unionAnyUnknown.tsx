@@ -7,7 +7,9 @@ function ts_unionAnyUnknown() {
     return (
         <div>
             <h2>Union, Any, Unknown</h2>
-            <pre>{`    
+            <pre>
+                <code>
+                {`    
             let user : string = 'kim';
             let age : undefined = undefined;
             let married : boolean = false;
@@ -20,7 +22,9 @@ function ts_unionAnyUnknown() {
             }
             type school = {score :(Number|boolean)[] , teacher :String, friend : String|String[]}
             학교.score[4] = false;
-            학교.friend = ['Lee', 학교.teacher]`}</pre>
+            학교.friend = ['Lee', 학교.teacher]`}
+                </code>
+            </pre>
         </div>
     )
 }

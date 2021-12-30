@@ -11,15 +11,18 @@ function App() {
  
   return (
     <div className="App">
-    <h1>TypeScript Note</h1>
-        <div className="grid-x">
-          <div className="cell small-2">
+      <div className="grid-x">
+        <div className="cell large-2">              
+          <aside style={{position:"fixed", borderRight:"1px solid white", height:"100%"}} className='fixed'>
             <Nav />
-          </div>
-          <div className="cell small-8">
-            <Viewer />
-          </div>
+          </aside>
         </div>
+        <div className="cell small-10 large-8">       
+          <main >
+            <Viewer/>
+          </main >
+        </div>
+      </div>
     </div>
   );
 }
