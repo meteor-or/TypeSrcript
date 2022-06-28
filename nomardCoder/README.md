@@ -1,0 +1,1 @@
+[노마드 코더 타입스크립트로 블록체인 만들기](https://nomadcoders.co/typescript-for-beginners)강의 2주 챌린지를 진행하며 배운 점을 적습니다.
